@@ -1,3 +1,0 @@
-hello
-str 2
-str 3
