@@ -1,17 +1,15 @@
 package com.company.inputoutput;
 
-import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.experimental.FieldDefaults;
 
 import java.io.*;
 import java.util.List;
 
 import static com.company.inputoutput.Common.path;
 
-public class ObjectOIEx {
+public class ObjectOISerializableEx {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         User user = new User("igor", "gruntik", "gruntikFor", "myPass1234", 23);
         User user2 = new User("igor2", "gruntik2", "gruntikFor2", "myPass1234", 23);
@@ -31,6 +29,7 @@ public class ObjectOIEx {
         System.out.println(listUser);
         System.out.println(greetings);
         System.out.println(greetings2);
+        System.out.println(greetings);
     }
 }
 
