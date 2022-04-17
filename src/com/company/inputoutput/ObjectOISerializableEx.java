@@ -29,6 +29,7 @@ public class ObjectOISerializableEx {
         System.out.println(listUser);
         System.out.println(greetings);
         System.out.println(greetings2);
+        System.out.println(greetings);
     }
 }
 
