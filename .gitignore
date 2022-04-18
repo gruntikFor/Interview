@@ -8,4 +8,6 @@
 /dataSources.local.xml
 /out/
 /.idea
+/target
+*.iml
 
