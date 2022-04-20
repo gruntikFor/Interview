@@ -144,25 +144,35 @@ public class Main {
         System.out.println(treeMap.firstEntry());
         System.out.println(treeMap.lastEntry());
 
-        List<Integer> integers =new ArrayList<>(Arrays.asList(1, 3, 4, 5, 8));
-        List<Integer> integers2 =new ArrayList<>(Arrays.asList(1, 3, 4, 5, 8));
+        List<Integer> integers = new ArrayList<>(Arrays.asList(1, 3, 4, 5, 8));
+        List<Integer> integers2 = new ArrayList<>(Arrays.asList(1, 3, 4, 5, 8));
         System.out.println(integers);
 
         Iterator<Integer> iterator1 = integers.iterator();
 
-        while(iterator1.hasNext()){
-            System.out.print(iterator1.next()+"\t");
+        while (iterator1.hasNext()) {
+            System.out.print(iterator1.next() + "\t");
             iterator1.remove();
         }
-        System.out.println("\n"+integers);
+        System.out.println("\n" + integers);
 
         ListIterator<Integer> integerListIterator = integers2.listIterator();
 
-        while(integerListIterator.hasNext()){
+        while (integerListIterator.hasNext()) {
             integerListIterator.next();
             System.out.println(integerListIterator.nextIndex());
         }
 
+
+        Map<String, String> linkedHashMap = new HashMap<>();
+        linkedHashMap.put("hello", "1");
+        linkedHashMap.put("hello2", "2");
+        linkedHashMap.put("hello3", "3");
+        linkedHashMap.put("hello4", "4");
+
+        for (String val : linkedHashMap.keySet()) {
+            System.out.println(val);
+        }
 
     }
 }

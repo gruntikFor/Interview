@@ -24,7 +24,7 @@ public class Bubble {
                 System.out.println("i: " + i + "(" + arr[j] + ")" + " > j:" + j + "(" + arr[j + 1] + ")\t" + Arrays.toString(arr));
             }
         }
-        System.out.println("--------------------------");
+        System.out.println("-------------------------- right to left");
 
         for (int i = 0; i < arr2.length - 1; i++) { //i = 0
             for (int j = arr2.length - 1; j > i; j--) { //j = 4
