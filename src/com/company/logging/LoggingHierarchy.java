@@ -40,11 +40,11 @@ public class LoggingHierarchy {
 
         logger0.setLevel(Level.INFO);
         logger1.setLevel(Level.INFO);
-        logger1_2.setLevel(Level.INFO);
+        logger1_2.setLevel(Level.WARNING);
 //
-//        logger0.info("msg:");
-//        logger1.info("msg: 1");
-//        logger1_2.info("msg: 1.2");
+        logger0.info("msg:");
+        logger1.info("msg: 1");
+        logger1_2.info("msg: 1.2");
 
     }
 

@@ -13,7 +13,11 @@ public class Main {
         Logger logger = Logger.getLogger(Main.class.getName());
         LogManager.getLogManager().readConfiguration(Files.newInputStream(Paths.get("logging.properties")));
 
-        logger.setUseParentHandlers(false);
+        LogRecord logRecord = new LogRecord(Level.INFO, "I'm log record");
+
+        Handler handler = new ConsoleHandler();
+        handler.setFormatter(new SimpleFormatter());
+
         logger.info(logger.getParent().toString());
 
 //        logger.addHandler(fh);

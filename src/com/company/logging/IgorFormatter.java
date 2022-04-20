@@ -10,6 +10,6 @@ public class IgorFormatter extends Formatter {
 
     @Override
     public String format(LogRecord record) {
-        return record.getMillis() + " " + record.getLevel() + " : " + record.getMessage();
+        return record.getMillis() + " _igor_ " + record.getLevel() + " : " + record.getMessage();
     }
 }

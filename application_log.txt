@@ -1,4 +1,0 @@
-апр. 19, 2022 8:37:13 PM com.company.logging.LoggingHierarchy main
-INFO: hello
-апр. 19, 2022 8:37:13 PM com.company.logging.LoggingHierarchy main
-INFO: com.gruntik
