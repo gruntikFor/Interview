@@ -1,8 +1,10 @@
 package com.company.logging;
 
-import org.apache.logging.log4j.*;
+
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.core.Logger;
 import org.apache.logging.log4j.core.LoggerContext;
-import org.apache.logging.log4j.core.config.Configurator;
 
 import java.io.File;
 
@@ -18,6 +20,7 @@ public class Log4JEx {
 
         logger.info("hello console logger");
         fileLogger.info("hello file logger");
+
 
 
     }
