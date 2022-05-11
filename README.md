@@ -15,4 +15,5 @@
   <li>Objects</li>
   <li>Type Wrappers (Integer, Double and etc.)</li>
   <li>Equals and HashCode</li>
+  <li>Patterns</li>
 </ul>
