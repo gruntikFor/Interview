@@ -1,9 +1,9 @@
 # Interview
 <p>This project for store my interview tasks.</p>
 <p>How to run?</p>
-<ol>
+<ul>
   <li>Use class with public static void main</li>
-</ol>
+</ul>
 
 <h3>Contains themes:</h3>
 <ul>
